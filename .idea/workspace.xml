@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="initial commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature/type-script" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VNA9KzEpMHOvm7wa40ma3gTh7K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Basics" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="" />
+      <created>1577083026954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577083026954</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1577341264269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577341264269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1577356518600">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1577356518600" />
+    <state x="100" y="125" width="1166" height="500" key="DiffContextDialog" timestamp="1577356532665">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="100" y="125" width="1166" height="500" key="DiffContextDialog/0.27.1366.698@0.27.1366.698" timestamp="1577356532665" />
+    <state x="466" y="133" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577341470574">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="466" y="133" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.698@0.27.1366.698" timestamp="1577341470574" />
+    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog" timestamp="1577356403380">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog/0.27.1366.698@0.27.1366.698" timestamp="1577356403380" />
+    <state x="457" y="87" width="442" height="575" key="RollbackChangesDialog" timestamp="1577356524221">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="457" y="87" width="442" height="575" key="RollbackChangesDialog/0.27.1366.698@0.27.1366.698" timestamp="1577356524221" />
+    <state x="243" y="27" width="1012" height="698" key="SettingsEditor" timestamp="1577340345275">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="243" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1577340345275" />
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577356636488">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1577356636488" />
+    <state x="339" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1577337619500">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="339" y="202" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1577337619500" />
+    <state x="346" y="46" width="672" height="678" key="search.everywhere.popup" timestamp="1577097719674">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="346" y="46" width="672" height="678" key="search.everywhere.popup/0.27.1366.698@0.27.1366.698" timestamp="1577097719674" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
