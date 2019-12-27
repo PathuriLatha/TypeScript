@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -12,7 +11,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
+//export {}
 var message = "Welcome to TypeScript";
 console.log(message);
 var x = 10;
@@ -24,8 +23,8 @@ var total = "Declaration of const variable";
 sum = "sum";
 var isComputer = true;
 var number = 10;
-var name = "Latha";
-var wish = "Good evening " + name + "!!";
+var us = "Latha";
+var wish = "Good evening " + us + "!!";
 console.log(wish);
 /*number = false;
 number = "number"
@@ -34,7 +33,7 @@ name = 15;
 isComputer = "isComputer";
 isComputer = 40;
 */
-console.log("x: " + x + ", y: " + y + ", sum: " + sum + ", total: " + total + ", isComputer: " + isComputer + ", number: " + number + ", name: " + name);
+console.log("x: " + x + ", y: " + y + ", sum: " + sum + ", total: " + total + ", isComputer: " + isComputer + ", number: " + number + ", name: " + us);
 var n = null;
 var u = undefined;
 console.log("null: " + n + ", undefined: " + u);
@@ -61,16 +60,17 @@ anyNumber = 35;
 //console.log(`anyNumber: ${anyNumber}`);
 anyNumber = true;
 console.log("anyNumber: " + anyNumber);
-var myVariable = 10;
-function hasName(obj) {
-    return !!obj &&
-        typeof obj === "object" && "name" in obj;
+/*let myVariable: unknown = 10;
+function hasName(obj: any): obj is {name: string}{
+  return !!obj &&
+          typeof obj === "object" && "name" in obj
 }
-if (hasName(myVariable)) {
-    console.log(myVariable.name);
+if(hasName(myVariable)){
+  console.log(myVariable.name);
 }
 //myVariable();
 //(myVariable as string).toUpperCase();
+*/
 var a;
 a = 20;
 a = false;
@@ -136,3 +136,19 @@ var ex = 123456;
 var exLengthTag = (ex.toString()).length;
 var exLengthAs = ex.toString().length;
 console.log(exLengthTag + " " + exLengthAs);
+console.log("hi!!");
+console.log("Hello!!");
+var arrInference = [1, "string", 23, false];
+arrInference.push(true);
+arrInference.push(null);
+arrInference.push(undefined);
+console.log(arrInference.length);
+for (var xx in arrInference) {
+    console.log(arrInference[xx]);
+}
+function sumInference(a, b) {
+    return a + b;
+}
+var totalInference = sumInference(10, 20);
+//let str: string = sumInference(10,20);
+console.log(totalInference);

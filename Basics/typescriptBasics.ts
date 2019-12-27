@@ -13,8 +13,8 @@ const total = "Declaration of const variable";
 sum = "sum";
 let isComputer: boolean = true;
 let number: number = 10;
-let name: string = "Latha";
-let wish: string = `Good evening ${name}!!`;
+let us: string = "Latha";
+let wish: string = `Good evening ${us}!!`;
 console.log(wish);
 /*number = false;
 number = "number"
@@ -23,7 +23,7 @@ name = 15;
 isComputer = "isComputer";
 isComputer = 40;
 */
-console.log(`x: ${x}, y: ${y}, sum: ${sum}, total: ${total}, isComputer: ${isComputer}, number: ${number}, name: ${name}`);
+console.log(`x: ${x}, y: ${y}, sum: ${sum}, total: ${total}, isComputer: ${isComputer}, number: ${number}, name: ${us}`);
 
 let n: null = null;
 let u: undefined = undefined;
@@ -149,3 +149,21 @@ console.log(`${exLengthTag} ${exLengthAs}`);
 
 console.log("hi!!");
 console.log("Hello!!");
+
+var arrInference = [1, "string", 23, false];
+arrInference.push(true);
+arrInference.push(null);
+arrInference.push(undefined);
+console.log(arrInference.length);
+
+for(let xx in arrInference){
+  console.log(arrInference[xx]);
+}
+
+function sumInference(a: number, b: number ){
+  return a + b;
+}
+let totalInference: number = sumInference(10,20);
+//let str: string = sumInference(10,20);
+
+console.log(totalInference);

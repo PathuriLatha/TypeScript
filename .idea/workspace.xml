@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="initial commit" />
+    <list default="true" id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/functions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/greeter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/greeter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/typescriptBasics.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/typescriptBasics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/typescriptBasics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/typescriptBasics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettingUpProject/jsFiles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SettingUpProject/jsFiles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettingUpProject/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SettingUpProject/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577341264269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1577356655944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577356655944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -104,10 +126,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1577356518600">
+    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1577356929024">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1577356518600" />
+    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1577356929024" />
     <state x="100" y="125" width="1166" height="500" key="DiffContextDialog" timestamp="1577356532665">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -124,22 +146,26 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="457" y="87" width="442" height="575" key="RollbackChangesDialog/0.27.1366.698@0.27.1366.698" timestamp="1577356524221" />
-    <state x="243" y="27" width="1012" height="698" key="SettingsEditor" timestamp="1577340345275">
+    <state x="243" y="27" width="1012" height="698" key="SettingsEditor" timestamp="1577364116086">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="243" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1577340345275" />
-    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577356636488">
+    <state x="243" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1577364116086" />
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577357035325">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1577356636488" />
-    <state x="339" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1577337619500">
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1577357035325" />
+    <state x="339" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1577424267439">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="339" y="202" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1577337619500" />
-    <state x="346" y="46" width="672" height="678" key="search.everywhere.popup" timestamp="1577097719674">
+    <state x="339" y="202" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1577424267439" />
+    <state x="346" y="46" width="672" height="678" key="search.everywhere.popup" timestamp="1577367486854">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="346" y="46" width="672" height="678" key="search.everywhere.popup/0.27.1366.698@0.27.1366.698" timestamp="1577097719674" />
+    <state x="346" y="46" width="672" height="678" key="search.everywhere.popup/0.27.1366.698@0.27.1366.698" timestamp="1577367486854" />
+    <state x="0" y="128" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1577356861723">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="0" y="128" key="vcs.ApplyPatchDifferentiatedDialog/0.27.1366.698@0.27.1366.698" timestamp="1577356861723" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

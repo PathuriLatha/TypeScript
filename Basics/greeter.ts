@@ -6,26 +6,7 @@ let user = ["1", "2", "3", "4", "5"];
 //document.body.textContent = greeter(user);
 console.log(greeter(user));
 */
-/*
-  Hi Team,
-    Today i worked on TypeScript
-      - practiced Namespaces and Modules
-      - practiced TypeScript compiler arguments
-      - creating an npm project using tsconfig json file
-      - learn installing libraries from npm
-    Blockers:
-      - Unable to get typescript plugins into intelliJ IDEA
-    Next Task:
-      - I will work on remaining types of TypeScript
-  - TypeScript compiler arguments
-  - Using tsconfig json file
-  - Creating an npm project
-  - Installing libraries
-  -
-  In Intellij ID i didn't get plugins
-    if we run this cmd --init it's  Initializes a TypeScript project and creates a tsconfig.json file.
-*/
-
+/* https://kinsta.com/blog/err_connection_refused/ */
 class Student{
 	fullName : string;
 	constructor(public firstName: string, public middleName: string,  public lastName: string){

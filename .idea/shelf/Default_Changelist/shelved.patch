@@ -1,0 +1,289 @@
+Index: SettingUpProject/src/index.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>console.log(\"hello..!\");\nconsole.log(\"successfully setting up the project...\");\n\nenum DaysOfTheWeek{\n  MON, TUE, WED, THU, FRI, SAT, SUN\n}\n\nlet day : DaysOfTheWeek;\nday = DaysOfTheWeek.THU;\n\nif(day === DaysOfTheWeek.THU){\n  console.log(`Today is : ${day}`);\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SettingUpProject/src/index.ts	(revision 70f1d9eca1b1b8c1a0bb1124c21f11813ca4aa4c)
++++ SettingUpProject/src/index.ts	(date 1577356377557)
+@@ -2,12 +2,85 @@
+ console.log("successfully setting up the project...");
+ 
+ enum DaysOfTheWeek{
+-  MON, TUE, WED, THU, FRI, SAT, SUN
++  MON = 1, TUE, WED, THU, FRI, SAT, SUN
+ }
+ 
+-let day : DaysOfTheWeek;
++
++/*let day : DaysOfTheWeek;
+ day = DaysOfTheWeek.THU;
++console.log(`day : ${day}`);
++*/
++
++let date = new Date();
++let today = date.getDay();
++console.log(`today : ${today}`);
++//console.log(`typeof date : ${typeof date.toString()}, date: ${date}`);
++
++for (let item in DaysOfTheWeek) {
++  //console.log("Number(item) typeof: "+typeof Number(item));
++  //console.log(`item typeof : ${typeof item}`);
++   if (item === today.toString() ) {
++        console.log(`Today is : ${DaysOfTheWeek[item]}`);
++    }
++}
++
++
++class Person{
++  firstName: string;
++  lastName: string;
++
++  constructor(fName: string, lName: string){
++    this.firstName = fName;
++    this.lastName = lName;
++  }
+ 
+-if(day === DaysOfTheWeek.THU){
+-  console.log(`Today is : ${day}`);
++  getFullName(){
++    return this.firstName +" "+this.lastName;
++  }
+ }
++
++class Admin extends Person{
++
++}
++class Manager extends Person{
++
++}
++
++let admin = new Admin("admin", "admin");
++let manager = new Manager("manager", "manager");
++
++function personEcho<T extends Person>(user: T): T{
++  return user;
++}
++
++let admins = personEcho(admin);
++let managers = personEcho(manager);
++
++/*console.log(`admins : ${admins.firstName} ${admins.lastName}`);
++console.log(`managers : ${managers.firstName} ${managers.lastName}`);
++*/
++
++console.log(`admin fullName : ${admins.getFullName()}`);
++console.log(`manager fullName : ${managers.getFullName()}`);
++
++class ReadonlyModifier{
++  //readonly name;
++  constructor(readonly name: string){
++    //return this.name = name;
++    console.log(name);
++  }
++}
++let example = new ReadonlyModifier("Rama");
++console.log(example.name);
++//example.name = "Latha";
++//console.log(example.name);
++
++class ReadOnly{
++  readonly password = "Latha";
++
++  //password = "Latha";
++}
++let r = new ReadOnly();
++//r.password = "rama";
++console.log(r.password);
++
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .gitignore	(date 1577341799809)
++++ .gitignore	(date 1577341799809)
+@@ -0,0 +1,26 @@
++# Created by .ignore support plugin (hsz.mobi)
++### Java template
++# Compiled class file
++*.class
++
++# Log file
++*.log
++
++# BlueJ files
++*.ctxt
++
++# Mobile Tools for Java (J2ME)
++.mtj.tmp/
++
++# Package Files #
++*.jar
++*.war
++*.nar
++*.ear
++*.zip
++*.tar.gz
++*.rar
++
++# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
++hs_err_pid*
++
+Index: SettingUpProject/jsFiles/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"use strict\";\nconsole.log(\"hello..!\");\nconsole.log(\"successfully setting up the project...\");\nvar DaysOfTheWeek;\n(function (DaysOfTheWeek) {\n    DaysOfTheWeek[DaysOfTheWeek[\"MON\"] = 0] = \"MON\";\n    DaysOfTheWeek[DaysOfTheWeek[\"TUE\"] = 1] = \"TUE\";\n    DaysOfTheWeek[DaysOfTheWeek[\"WED\"] = 2] = \"WED\";\n    DaysOfTheWeek[DaysOfTheWeek[\"THU\"] = 3] = \"THU\";\n    DaysOfTheWeek[DaysOfTheWeek[\"FRI\"] = 4] = \"FRI\";\n    DaysOfTheWeek[DaysOfTheWeek[\"SAT\"] = 5] = \"SAT\";\n    DaysOfTheWeek[DaysOfTheWeek[\"SUN\"] = 6] = \"SUN\";\n})(DaysOfTheWeek || (DaysOfTheWeek = {}));\nvar day;\nday = DaysOfTheWeek.THU;\nif (day === DaysOfTheWeek.THU) {\n    console.log(\"Today is : \" + day);\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SettingUpProject/jsFiles/index.js	(revision 70f1d9eca1b1b8c1a0bb1124c21f11813ca4aa4c)
++++ SettingUpProject/jsFiles/index.js	(date 1577356384633)
+@@ -1,18 +1,100 @@
+ "use strict";
++var __extends = (this && this.__extends) || (function () {
++    var extendStatics = function (d, b) {
++        extendStatics = Object.setPrototypeOf ||
++            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
++            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
++        return extendStatics(d, b);
++    };
++    return function (d, b) {
++        extendStatics(d, b);
++        function __() { this.constructor = d; }
++        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
++    };
++})();
+ console.log("hello..!");
+ console.log("successfully setting up the project...");
+ var DaysOfTheWeek;
+ (function (DaysOfTheWeek) {
+-    DaysOfTheWeek[DaysOfTheWeek["MON"] = 0] = "MON";
+-    DaysOfTheWeek[DaysOfTheWeek["TUE"] = 1] = "TUE";
+-    DaysOfTheWeek[DaysOfTheWeek["WED"] = 2] = "WED";
+-    DaysOfTheWeek[DaysOfTheWeek["THU"] = 3] = "THU";
+-    DaysOfTheWeek[DaysOfTheWeek["FRI"] = 4] = "FRI";
+-    DaysOfTheWeek[DaysOfTheWeek["SAT"] = 5] = "SAT";
+-    DaysOfTheWeek[DaysOfTheWeek["SUN"] = 6] = "SUN";
++    DaysOfTheWeek[DaysOfTheWeek["MON"] = 1] = "MON";
++    DaysOfTheWeek[DaysOfTheWeek["TUE"] = 2] = "TUE";
++    DaysOfTheWeek[DaysOfTheWeek["WED"] = 3] = "WED";
++    DaysOfTheWeek[DaysOfTheWeek["THU"] = 4] = "THU";
++    DaysOfTheWeek[DaysOfTheWeek["FRI"] = 5] = "FRI";
++    DaysOfTheWeek[DaysOfTheWeek["SAT"] = 6] = "SAT";
++    DaysOfTheWeek[DaysOfTheWeek["SUN"] = 7] = "SUN";
+ })(DaysOfTheWeek || (DaysOfTheWeek = {}));
+-var day;
++/*let day : DaysOfTheWeek;
+ day = DaysOfTheWeek.THU;
+-if (day === DaysOfTheWeek.THU) {
+-    console.log("Today is : " + day);
++console.log(`day : ${day}`);
++*/
++var date = new Date();
++var today = date.getDay();
++console.log("today : " + today);
++//console.log(`typeof date : ${typeof date.toString()}, date: ${date}`);
++for (var item in DaysOfTheWeek) {
++    //console.log("Number(item) typeof: "+typeof Number(item));
++    //console.log(`item typeof : ${typeof item}`);
++    if (item === today.toString()) {
++        console.log("Today is : " + DaysOfTheWeek[item]);
++    }
+ }
++var Person = /** @class */ (function () {
++    function Person(fName, lName) {
++        this.firstName = fName;
++        this.lastName = lName;
++    }
++    Person.prototype.getFullName = function () {
++        return this.firstName + " " + this.lastName;
++    };
++    return Person;
++}());
++var Admin = /** @class */ (function (_super) {
++    __extends(Admin, _super);
++    function Admin() {
++        return _super !== null && _super.apply(this, arguments) || this;
++    }
++    return Admin;
++}(Person));
++var Manager = /** @class */ (function (_super) {
++    __extends(Manager, _super);
++    function Manager() {
++        return _super !== null && _super.apply(this, arguments) || this;
++    }
++    return Manager;
++}(Person));
++var admin = new Admin("admin", "admin");
++var manager = new Manager("manager", "manager");
++function personEcho(user) {
++    return user;
++}
++var admins = personEcho(admin);
++var managers = personEcho(manager);
++/*console.log(`admins : ${admins.firstName} ${admins.lastName}`);
++console.log(`managers : ${managers.firstName} ${managers.lastName}`);
++*/
++console.log("admin fullName : " + admins.getFullName());
++console.log("manager fullName : " + managers.getFullName());
++var ReadonlyModifier = /** @class */ (function () {
++    //readonly name;
++    function ReadonlyModifier(name) {
++        this.name = name;
++        //return this.name = name;
++        console.log(name);
++    }
++    return ReadonlyModifier;
++}());
++var example = new ReadonlyModifier("Rama");
++console.log(example.name);
++//example.name = "Latha";
++//console.log(example.name);
++var ReadOnly = /** @class */ (function () {
++    function ReadOnly() {
++        this.password = "Latha";
++        //password = "Latha";
++    }
++    return ReadOnly;
++}());
++var r = new ReadOnly();
++//r.password = "rama";
++console.log(r.password);
+Index: Basics/greeter.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*function greeter(person: string[]){\n\treturn \"Hello, \"+person[0];\n}\n//let user = \"Latha\";\nlet user = [\"1\", \"2\", \"3\", \"4\", \"5\"];\n//document.body.textContent = greeter(user);\nconsole.log(greeter(user));\n*/\n/*\n  Hi Team,\n    Today i worked on TypeScript\n      - practiced Namespaces and Modules\n      - practiced TypeScript compiler arguments\n      - creating an npm project using tsconfig json file\n      - learn installing libraries from npm\n    Blockers:\n      - Unable to get typescript plugins into intelliJ IDEA\n    Next Task:\n      - I will work on remaining types of TypeScript\n  - TypeScript compiler arguments\n  - Using tsconfig json file\n  - Creating an npm project\n  - Installing libraries\n  -\n  In Intellij ID i didn't get plugins\n    if we run this cmd --init it's  Initializes a TypeScript project and creates a tsconfig.json file.\n*/\n\nclass Student{\n\tfullName : string;\n\tconstructor(public firstName: string, public middleName: string,  public lastName: string){\n\t\tthis.fullName = firstName+\" \"+middleName+\" \"+lastName;\n\t}\n}\n\ninterface Person{\n\tfirstName: string;\n\tlastName: string;\n}\n\nfunction greeter(person: Person){\n\t\treturn person.firstName +\" \"+person.lastName;\n}\n\nlet user = {firstName : \"Latha\", lastName : \"Pathuri\"};\n/*Person.firstName = \"rama\";\nPerson.lastName = \"pathuri\";*/\nconsole.log(greeter(user));\n\n\nlet student = new Student(\"Rama\", \"Pathuri\", \"Reddy\");\n\nconsole.log(greeter(student));\nconsole.log(student.fullName);\n\nvar result = greeter(student) + \" \"+student.middleName;\nconsole.log(result);\n\n\nfunction display(name) {\n   if (typeof name == \"string\") {\n      console.log(name);\n   } else {\n      var i;\n      for (i = 0; i < name.length; i++) {\n         console.log(name[i]);\n      }\n   }\n}\n\ndisplay(\"Pathuri\");\nconsole.log(\"Printing names array....\");\ndisplay([\"Advith\", \"Meghana\", \"LoukhyaSri\", \"Lasya\"]);\n\n\nvar arr:number[]|string[];\nvar i:number;\narr = [\"1\", \"latha\", \"3\", \"rama\"];\nfor(i = 0;i<arr.length;i++) {\n   console.log(arr[i])\n}\n\nconsole.log(\"Hello..!!\");\nconsole.log(\"hi..!\");\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Basics/greeter.ts	(revision 70f1d9eca1b1b8c1a0bb1124c21f11813ca4aa4c)
++++ Basics/greeter.ts	(date 1577355215869)
+@@ -17,6 +17,15 @@
+       - Unable to get typescript plugins into intelliJ IDEA
+     Next Task:
+       - I will work on remaining types of TypeScript
++
++
++  Hi Team,
++    Today i worked on TypeScript
++      - practiced Member visibility and Readonly modifier
++      - practiced Enums
++
++
++
+   - TypeScript compiler arguments
+   - Using tsconfig json file
+   - Creating an npm project
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1577341455367)
++++ .idea/.gitignore	(date 1577341455367)
+@@ -0,0 +1,2 @@
++# Default ignored files
++/workspace.xml
+\ No newline at end of file
