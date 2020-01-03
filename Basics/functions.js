@@ -68,3 +68,10 @@ console.log(details("Latha", "SSC", "Inter", "B.Tech"));
 console.log(details("Srivani", "SSC", "Inter", "B.Com", "M.B.A"));
 console.log(details("Lasya", "5th"));
 console.log(details("Loukhya"));
+function stringFun(item) {
+    console.log(typeof item);
+    //let numValue = parseInt(item);
+    console.log(typeof Number(item));
+    return Number(item);
+}
+console.log(typeof stringFun("12"));

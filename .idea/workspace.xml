@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default_Changelist/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/functions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Advanced-Types/IntersectionTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Types/UnionTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Types/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced-Types/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ambient-Declarations/Calc.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ambient-Declarations/CalcTest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ambient-Declarations/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/StringUtility.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/abstarctClass.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/duckTyping.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/generics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/jsClasses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/map.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/mixins.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/symbols.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/utilityTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvertExisting-JS-TO-Ts/src/jsToTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvertExisting-JS-TO-Ts/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorators/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorators/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorators/src/inhertiance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Decorators/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html-Typescript/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html-Typescript/input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator-Generators/IteratorsAndGenerators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/demo1.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SettingUpProject/src/GithubApiService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SettingUpProject/src/Repo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SettingUpProject/src/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Triple-Slash Directives/Test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Triple-Slash Directives/amdModule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Triple-Slash Directives/firstTest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Triple-Slash Directives/triple-slash.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Type-Checking/TypeChecking.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/greeter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/greeter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/typescriptBasics.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/typescriptBasics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basics/typescriptBasics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/typescriptBasics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/functions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/greeter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/greeter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SettingUpProject/jsFiles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/SettingUpProject/jsFiles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettingUpProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/SettingUpProject/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SettingUpProject/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/SettingUpProject/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SettingUpProject/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/SettingUpProject/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsConfigJsonFile/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tsConfigJsonFile/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsConfigJsonFile/jsFiles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsConfigJsonFile/jsFiles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsConfigJsonFile/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsConfigJsonFile/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsConfigJsonFile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsConfigJsonFile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsConfigJsonFile/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsConfigJsonFile/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +98,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SettingUpProject/src" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SettingUpProject/src" />
+      <recent name="$PROJECT_DIR$/Decorators/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Basics" />
     </key>
@@ -105,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577356655944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="practiced with TypeScript functions">
+      <created>1577424554156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577424554156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,13 +172,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="practiced with TypeScript functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced with TypeScript functions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1577356929024">
+    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1578059654935">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1577356929024" />
+    <state x="289" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1578059654935" />
     <state x="100" y="125" width="1166" height="500" key="DiffContextDialog" timestamp="1577356532665">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -138,26 +188,34 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="466" y="133" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.698@0.27.1366.698" timestamp="1577341470574" />
-    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog" timestamp="1577356403380">
+    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog" timestamp="1578052728662">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog/0.27.1366.698@0.27.1366.698" timestamp="1577356403380" />
+    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog/0.27.1366.698@0.27.1366.698" timestamp="1578052728662" />
     <state x="457" y="87" width="442" height="575" key="RollbackChangesDialog" timestamp="1577356524221">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="457" y="87" width="442" height="575" key="RollbackChangesDialog/0.27.1366.698@0.27.1366.698" timestamp="1577356524221" />
-    <state x="243" y="27" width="1012" height="698" key="SettingsEditor" timestamp="1577364116086">
+    <state x="243" y="27" width="1012" height="698" key="SettingsEditor" timestamp="1577972582439">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="243" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1577364116086" />
-    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1577357035325">
+    <state x="243" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1577972582439" />
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578059555562">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1577357035325" />
-    <state x="339" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1577424267439">
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1578059555562" />
+    <state x="339" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1578032271532">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="339" y="202" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1577424267439" />
+    <state x="339" y="202" key="com.intellij.ide.util.TipDialog/0.27.1366.698@0.27.1366.698" timestamp="1578032271532" />
+    <state x="462" y="112" width="431" height="526" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1577789154926">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="462" y="112" width="431" height="526" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.27.1366.698@0.27.1366.698" timestamp="1577789154926" />
+    <state x="0" y="27" width="1356" height="698" key="new project wizard" timestamp="1578037526784">
+      <screen x="0" y="27" width="1366" height="698" />
+    </state>
+    <state x="0" y="27" width="1356" height="698" key="new project wizard/0.27.1366.698@0.27.1366.698" timestamp="1578037526784" />
     <state x="346" y="46" width="672" height="678" key="search.everywhere.popup" timestamp="1577367486854">
       <screen x="0" y="27" width="1366" height="698" />
     </state>

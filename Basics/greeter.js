@@ -8,7 +8,7 @@ console.log(greeter(user));
 */
 /*
   - TypeScript compiler arguments
-  -  if we run this cmd --init
+  -  if we run this cmd tsc --init
     it's  Initializes a TypeScript project and creates a tsconfig.json file.
 */
 var Student = /** @class */ (function () {

@@ -1,5 +1,5 @@
 {
-  "name": "settingupproject",
+  "name": "decorators",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.15",
-    "request": "^2.88.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/lodash": "^4.14.149",
-    "@types/request": "^2.48.4"
+    "reflect-metadata": "^0.1.13"
   }
 }

@@ -93,3 +93,12 @@ console.log(details("Srivani", "SSC", "Inter", "B.Com", "M.B.A"));
 console.log(details("Lasya", "5th"));
 console.log(details("Loukhya"));
 
+
+function stringFun<T>(item : T) : number{
+  console.log(typeof item);
+  //let numValue = parseInt(item);
+  console.log(typeof Number(item));
+  return Number(item);
+}
+
+console.log(typeof stringFun<string>("12"));
