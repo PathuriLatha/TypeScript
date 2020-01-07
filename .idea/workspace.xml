@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c61ce27-b11d-42b9-9050-88d48f8994ad" name="Default Changelist" comment="practiced TypeScript module Agumentation">
+      <change afterPath="$PROJECT_DIR$/Basics/nonNullable.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JQuery/Accordion-TabWidget.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JQuery/MobileApp/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JQuery/MobileApp/products.json" afterDir="false" />
@@ -11,14 +12,9 @@
       <change afterPath="$PROJECT_DIR$/JQuery/jQuery-plugins.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JQuery/simpleTip.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JQuery/simpleTree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module-Agumentation/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module-Agumentation/details.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module-Agumentation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module-Agumentation/moduleAgumentation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module-Agumentation/moduleAgumentation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript-Evolution/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ambient-Declarations/Calc.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ambient-Declarations/Calc.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ambient-Declarations/CalcTest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ambient-Declarations/CalcTest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basics/mixins.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/mixins.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +61,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dream_Travellers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SettingUpProject/src" />
-      <recent name="$PROJECT_DIR$/Decorators/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Basics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Modules" />
+      <recent name="$PROJECT_DIR$/SettingUpProject/src" />
+      <recent name="$PROJECT_DIR$/Decorators/src" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -128,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578059656013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="practiced TypeScript module Agumentation">
+      <created>1578320247714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578320247714</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,13 +152,14 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="practiced with TypeScript functions" />
     <MESSAGE value="practiced Advanced Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="practiced Advanced Types" />
+    <MESSAGE value="practiced TypeScript module Agumentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="practiced TypeScript module Agumentation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="248" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1578320234512">
+    <state x="248" y="27" width="777" height="698" key="CommitChangelistDialog2" timestamp="1578405551660">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="248" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1578320234512" />
+    <state x="248" y="27" width="777" height="698" key="CommitChangelistDialog2/0.27.1366.698@0.27.1366.698" timestamp="1578405551660" />
     <state x="100" y="125" width="1166" height="500" key="DiffContextDialog" timestamp="1577356532665">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -163,10 +168,10 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="466" y="133" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.698@0.27.1366.698" timestamp="1578303328123" />
-    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog" timestamp="1578052728662">
+    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog" timestamp="1578397270163">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog/0.27.1366.698@0.27.1366.698" timestamp="1578052728662" />
+    <state x="221" y="112" width="903" height="538" key="IDE.errors.dialog/0.27.1366.698@0.27.1366.698" timestamp="1578397270163" />
     <state x="457" y="87" width="442" height="575" key="RollbackChangesDialog" timestamp="1578319786531">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
@@ -175,10 +180,10 @@
       <screen x="0" y="27" width="1366" height="698" />
     </state>
     <state x="243" y="27" width="1012" height="698" key="SettingsEditor/0.27.1366.698@0.27.1366.698" timestamp="1578296996705" />
-    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578059701327">
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578320273366">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
-    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1578059701327" />
+    <state x="278" y="111" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.698@0.27.1366.698" timestamp="1578320273366" />
     <state x="339" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1578286161144">
       <screen x="0" y="27" width="1366" height="698" />
     </state>
